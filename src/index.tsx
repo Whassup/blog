@@ -4,12 +4,11 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 if (rootElement && rootElement.hasChildNodes()) {
-  hydrate(<App />, rootElement);
+    hydrate(<App />, rootElement);
 } else {
-  render(<App />, rootElement);
+    render(<App />, rootElement);
 }
 
 // If you want to start measuring performance in your app, pass a function
