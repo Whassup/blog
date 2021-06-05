@@ -29,7 +29,7 @@ const Navigation = styled.nav`
 const NavLink = styled(Link)`
     text-decoration: none;
     text-transform: uppercase;
-    color: #68788d;
+    color: #95a1b1;
 `;
 
 export const Header: FunctionComponent = () => {
