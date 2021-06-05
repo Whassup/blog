@@ -1,3 +1,14 @@
+# TODOs
+
+- [ ] Style desktop
+- [ ] Style mobile
+- [ ] Add about me page
+- [ ] Add contact page
+- [ ] Generate articles from markdown
+- [ ] Code highlighting
+- [ ] Add commenting
+- [ ] Add page tracking
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
