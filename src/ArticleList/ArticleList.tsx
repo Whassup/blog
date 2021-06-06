@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { Date, H1 } from '../shared/typography/typography';
 
 const List = styled.article`
     display: flex;
@@ -17,19 +18,6 @@ const Article = styled.article`
     background-color: #f7fff6;
     padding: 2rem 4rem;
     border-radius: 1rem;
-`;
-
-const H1 = styled.h1`
-    font-size: 2rem;
-    padding: 0.5rem;
-
-    > * {
-        color: #000;
-    }
-`;
-
-const Date = styled.time`
-    color: #95a1b1;
 `;
 
 const Body = styled.div`
