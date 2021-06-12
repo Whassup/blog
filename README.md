@@ -1,13 +1,13 @@
 # TODOs
 
-- [ ] Style desktop
-- [ ] Style mobile
+
 - [ ] Add about me page
 - [ ] Add contact page
-- [ ] Generate articles from markdown
 - [ ] Code highlighting
 - [ ] Add commenting
 - [ ] Add page tracking
+- [ ] Change favicon
+- [ ] Setup metadata and page titles
 
 # Getting Started with Create React App
 
