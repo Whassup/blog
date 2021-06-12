@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import { A, CodeBlock, Date, H1, LI, P, UL } from '../../../shared/typography/typography';
 
-export const HowOurTeamWritesReactTests = () => {
+export const HowOurTeamWritesReactTests: FunctionComponent = () => {
     return (
         <>
             <H1>How our team writes React tests and other stuff too</H1>

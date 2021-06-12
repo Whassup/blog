@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
 import { Article } from './Pages/Article/Article';
 import { Home } from './Pages/Home/Home';
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Roboto:wght@300;400&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -14,11 +16,28 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code {
+	font-family: 'Cutive Mono', monospace;
+	line-height: 1.25;
+} 
+
+html {
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	color: #576475;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+	font-size: 1.25rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #576475;
 }
 
 article, aside, details, figcaption, figure, 

@@ -6,6 +6,7 @@ const Wrapper = styled.header`
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
+    align-items: center;
 `;
 
 const Title = styled.h1`
