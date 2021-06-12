@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { A, CodeBlock, Date, H1, LI, P, UL } from '../../../shared/typography/typography';
+import { A, CodeBlock, Date, H1, InlineCode, LI, P, UL } from '../../../shared/typography/typography';
 
 export const HowOurTeamWritesReactTests: FunctionComponent = () => {
     return (
@@ -35,9 +35,13 @@ export const HowOurTeamWritesReactTests: FunctionComponent = () => {
                     </A>
                 </LI>
                 <LI>Don&apos;t re-test functionality of other components</LI>
-                <LI>Use a single `expect` statement per test</LI>
+                <LI>
+                    Use a single <InlineCode>expect</InlineCode> statement per test
+                </LI>
                 <LI>Accept unit testing UI components can be difficult</LI>
-                <LI>Try use `screen.getByRole`</LI>
+                <LI>
+                    Try use <InlineCode>screen.getByRole</InlineCode>
+                </LI>
                 <LI>Isolate complex component logic, and test separately</LI>
             </UL>
 

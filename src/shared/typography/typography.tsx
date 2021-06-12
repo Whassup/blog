@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import jsx from 'react-syntax-highlighter/dist/esm/languages/prism/jsx';
-import { hopscotch } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { solarizedlight } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import styled from 'styled-components';
 
 SyntaxHighlighter.registerLanguage('jsx', jsx);
@@ -20,7 +20,7 @@ export const Date = styled.time`
 `;
 
 export const P = styled.p`
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
     text-align: left;
 `;
 
@@ -30,7 +30,7 @@ export const UL = styled.ul`
 `;
 
 export const LI = styled.li`
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-left: 1.5rem;
     text-align: left;
     list-style: disc;
@@ -44,7 +44,20 @@ export const A = styled.a`
 
 // eslint-disable-next-line react/prop-types
 export const CodeBlock: FunctionComponent = ({ children }) => (
-    <SyntaxHighlighter language="jsx" style={hopscotch} wrapLongLines codeTagProps={{ style: { fontSize: '1.25rem' } }}>
+    <SyntaxHighlighter
+        language="jsx"
+        style={solarizedlight}
+        wrapLongLines
+        codeTagProps={{ style: { fontSize: '1.25rem' } }}
+    >
         {children}
     </SyntaxHighlighter>
 );
+
+export const InlineCode = styled.code`
+    color: #f55e00;
+    background-color: rgb(253, 246, 227);
+    border-radius: 0.1em;
+    padding: 0.5rem 0.5rem;
+    white-space: nowrap;
+`;
