@@ -1,13 +1,16 @@
+# Personal Blog
+
+See https://whassup.github.io/blog/article/how-our-team-writes-tests/
+
 # TODOs
 
 
 - [ ] Add about me page
 - [ ] Add contact page
-- [ ] Code highlighting
-- [ ] Add commenting
+- [ ] Add commenting for articles
+- [ ] Add TOC links for headings in articles
 - [ ] Add page tracking
-- [ ] Change favicon
-- [ ] Setup metadata and page titles
+
 
 # Getting Started with Create React App
 
