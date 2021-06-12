@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { Date, H1, P } from '../shared/typography/typography';
+import { ArticleMeta, H1, P } from '../shared/typography/typography';
 
 const List = styled.article`
     display: flex;
@@ -39,7 +39,9 @@ export const ArticleList: FunctionComponent = () => {
                         How our team writes React tests and other stuff too
                     </Link>
                 </H1>
-                <Date>5 June 2021</Date>
+                <ArticleMeta>
+                    <time>5 June 2021</time>
+                </ArticleMeta>
                 <Body>
                     <P>
                         Have you ever worked in a codebase where each test file was different to the next? Different
