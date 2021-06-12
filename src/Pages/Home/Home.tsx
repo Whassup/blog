@@ -12,7 +12,6 @@ export const Home: FunctionComponent = () => {
                 <meta name="og:title" content="Personal blog of Robert Prib" />
                 <meta name="og:description" content="Articles on web development" />
                 <meta name="og:url" content="https://whassup.github.io/blog/" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Helmet>
             <Header />
             <ArticleList />

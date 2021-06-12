@@ -36,7 +36,6 @@ export const HowOurTeamWritesReactTests: FunctionComponent = () => {
                 />
                 <meta name="og:url" content="https://whassup.github.io/blog/article/how-our-team-writes-tests" />
                 <meta name="og:image" content="https://whassup.github.io/blog/article/how-our-team-writes-tests" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Helmet>
             <H1>How our team writes React tests and other stuff too</H1>
             <ArticleMeta>
