@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react';
+import { Helmet } from 'react-helmet';
 import { ReactComponent as CalendarDayIcon } from '../../../assets/svgs/solid/calendar-day.svg';
 import { ReactComponent as StopWatchIcon } from '../../../assets/svgs/solid/stopwatch.svg';
 import {
@@ -19,6 +20,24 @@ import {
 export const HowOurTeamWritesReactTests: FunctionComponent = () => {
     return (
         <>
+            <Helmet>
+                <title>How our team writes React tests and other stuff too | Robert Prib | Blog </title>
+                <meta
+                    name="description"
+                    content="Write React tests that are easy to read, write and reduced wasted time on decisions."
+                />
+                <meta
+                    name="og:title"
+                    content="How our team writes React tests and other stuff too | Robert Prib | Blog "
+                />
+                <meta
+                    name="og:description"
+                    content="Write React tests that are easy to read, write and reduced wasted time on decisions."
+                />
+                <meta name="og:url" content="https://whassup.github.io/blog/article/how-our-team-writes-tests" />
+                <meta name="og:image" content="https://whassup.github.io/blog/article/how-our-team-writes-tests" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Helmet>
             <H1>How our team writes React tests and other stuff too</H1>
             <ArticleMeta>
                 <time>
