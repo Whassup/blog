@@ -5,7 +5,10 @@ import { Header } from '../../Header/Header';
 import { HowOurTeamWritesReactTests } from './articles/HowOurTeamWritesReactTests';
 
 const Wrapper = styled.article`
-    padding: 0 25%;
+    padding: 2rem 25%;
+    background-color: #f7fff6;
+    /* padding: 2rem 4rem; */
+    border-radius: 1rem;
 `;
 
 export const Article: FunctionComponent = () => {

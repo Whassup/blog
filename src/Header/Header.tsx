@@ -11,12 +11,10 @@ const Wrapper = styled.header`
 
 const Title = styled.h1`
     font-size: 3.5rem;
-    font-family: 'Courier New', Courier, monospace;
     margin-bottom: 4rem;
 `;
 
 const TitleName = styled.strong`
-    font-family: 'Courier New', Courier, monospace;
     color: #000;
     font-weight: 700;
 `;
@@ -41,8 +39,6 @@ export const Header: FunctionComponent = () => {
             </Title>
             <Navigation>
                 <NavLink to="/blog">Home</NavLink>
-                <NavLink to="/blog/about-me">About me</NavLink>
-                <NavLink to="/blog/contact">Contact</NavLink>
             </Navigation>
         </Wrapper>
     );
