@@ -1,17 +1,27 @@
 import React, { FunctionComponent } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { mediaQuery } from '../shared/mediaQuery';
 
 const Wrapper = styled.header`
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
     align-items: center;
+
+    ${mediaQuery.mobile} {
+        padding: 1rem 0.5rem;
+    }
 `;
 
 const Title = styled.h1`
     font-size: 3.5rem;
     margin-bottom: 4rem;
+
+    ${mediaQuery.mobile} {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
 `;
 
 const TitleName = styled.strong`
