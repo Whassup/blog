@@ -1,6 +1,6 @@
 # Personal Blog
 
-See https://whassup.github.io/blog/article/how-our-team-writes-tests/
+See https://whassup.github.io/blog/
 
 # TODOs
 

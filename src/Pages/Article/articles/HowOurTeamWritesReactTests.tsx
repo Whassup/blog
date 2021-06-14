@@ -49,7 +49,7 @@ export const HowOurTeamWritesReactTests: FunctionComponent = () => {
                     <SvgIcon>
                         <StopWatchIcon />
                     </SvgIcon>{' '}
-                    8 minutes reading time
+                    8 minute read
                 </span>
             </ArticleMeta>
 
