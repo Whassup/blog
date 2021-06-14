@@ -7,7 +7,6 @@ See https://whassup.github.io/blog/
 
 - [ ] Add about me page
 - [ ] Add contact page
-- [ ] Add commenting for articles
 - [ ] Add TOC links for headings in articles
 - [ ] Add page tracking
 
