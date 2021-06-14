@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Article } from './Pages/Article/Article';
+import { Contact } from './Pages/Contact/Contact';
 import { Home } from './Pages/Home/Home';
 
 const App: FunctionComponent = () => {
@@ -13,6 +14,9 @@ const App: FunctionComponent = () => {
                     </Route>
                     <Route exact path="/blog/article/:article">
                         <Article />
+                    </Route>
+                    <Route exact path="/blog/contact">
+                        <Contact />
                     </Route>
                     <Route exact strict={false} path={'/blog'}>
                         <Home />

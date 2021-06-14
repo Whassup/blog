@@ -7,7 +7,6 @@ See https://whassup.github.io/blog/
 
 - [ ] Add about me page
 - [ ] Add contact page
-- [ ] Add TOC links for headings in articles
 
 
 # Getting Started with Create React App

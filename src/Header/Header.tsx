@@ -49,6 +49,7 @@ export const Header: FunctionComponent = () => {
             </Title>
             <Navigation>
                 <NavLink to="/blog">Home</NavLink>
+                <NavLink to="/blog/contact">Contact</NavLink>
             </Navigation>
         </Wrapper>
     );
