@@ -202,8 +202,10 @@ export const HowOurTeamWritesReactTests: FunctionComponent = () => {
                 <P>
                     The biggest improvement to our tests readability has been determining a consistent language and
                     structure for our test descriptions – and for not a lot of effort! We found that using the
-                    [GIVEN-WHEN-THEN](https://www.agilealliance.org/glossary/gwt) structure works really well for
-                    describing component tests when using the `react-testing-library`.
+                    <A href="https://www.agilealliance.org/glossary/gwt" target="_blank">
+                        GIVEN-WHEN-THEN
+                    </A>{' '}
+                    structure works really well for describing component tests when using the `react-testing-library`.
                 </P>
                 <P>
                     <Strong>GIVEN</Strong> some context e.g. some component props, context, or state
