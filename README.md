@@ -6,8 +6,7 @@ See https://whassup.github.io/blog/
 
 
 - [ ] Add about me page
-- [ ] Add contact page
-
+- [ ] Add copywrite information in footer of website
 
 # Getting Started with Create React App
 

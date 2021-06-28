@@ -324,7 +324,7 @@ export const HowOurTeamWritesReactTests: FunctionComponent = () => {
 });`}</CodeBlock>
             </section>
             <section>
-                <H2></H2>
+                <H2>Don&apos;t be afraid to stub child components</H2>
                 <Quote
                     source="Martin Fowler"
                     cite="Mocks arent Stubs"
