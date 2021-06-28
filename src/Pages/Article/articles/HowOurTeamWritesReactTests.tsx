@@ -530,9 +530,11 @@ jest.mock("./tooltip", () => {
                     readers.{' '}
                 </P>
                 <P>
-                    I recommend reviewing the [MDN docs for ARIA
-                    Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles) to figure out the best
-                    way to add the correct roles to your interactive elements so that
+                    I recommend reviewing the{' '}
+                    <A href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles" target="_blank">
+                        MDN docs for ARIA Roles
+                    </A>{' '}
+                    to figure out the best way to add the correct roles to your interactive elements so that
                     <InlineCode>getByRole</InlineCode>. can be used.
                 </P>
                 <P>
