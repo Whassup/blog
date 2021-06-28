@@ -64,7 +64,7 @@ export const Article: FunctionComponent = () => {
             <Header />
             <Wrapper>
                 <HowOurTeamWritesReactTests />
-                <CommentWall pageIdentifier={article} />
+                {/* <CommentWall pageIdentifier={article} /> */}
             </Wrapper>
         </>
     );
