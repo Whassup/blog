@@ -144,7 +144,7 @@ export const HeresWhatHappenedAfter: FunctionComponent = () => {
                     first build karma points in that community by commenting and voting on other posts first.
                 </P>
                 <Quote citeContent="My removed post" source="Reddit">
-                    <img src="/blog/slack-post-publishing-article.png" alt="My removed post on Reddit" width="100%" />
+                    <img src="/blog/reddit-removed-post.png" alt="My removed post on Reddit" width="100%" />
                 </Quote>
             </section>
             <section>
