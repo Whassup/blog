@@ -93,7 +93,6 @@ interface QouteProps {
     citeLink?: string;
 }
 export const Quote: FunctionComponent<QouteProps> = ({ children, source, citeContent, citeLink }) => {
-    console.log(citeContent);
     return (
         <QuoteWrapper>
             <blockquote cite={citeLink}>{children}</blockquote>
