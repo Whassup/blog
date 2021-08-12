@@ -157,7 +157,7 @@ export const HeresWhatHappenedAfter: FunctionComponent = () => {
                 </P>
             </section>
             <section>
-                <H2 id="insights">Sharing this content was useful for myself</H2>
+                <H2 id="insights">There is a great deal more for me to learn about writing & publishing online</H2>
                 <P>
                     The real value generated from publishing my first article was the insights I garnered from the
                     experience.
