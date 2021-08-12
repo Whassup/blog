@@ -88,26 +88,27 @@ const QouteSource = styled.figcaption`
 `;
 
 interface QouteProps {
-    source: ReactNode;
-    cite: ReactNode;
-    citeLink: string;
+    source: ReactNode | string;
+    citeContent: ReactNode | string;
+    citeLink?: string;
 }
-export const Quote: FunctionComponent<QouteProps> = ({ children, source, cite, citeLink }) => {
+export const Quote: FunctionComponent<QouteProps> = ({ children, source, citeContent, citeLink }) => {
+    console.log(citeContent);
     return (
         <QuoteWrapper>
             <blockquote cite={citeLink}>{children}</blockquote>
-            {(source || cite) && (
+            {(source || citeContent) && (
                 <QouteSource>
                     — {source}
-                    {cite && (
+                    {citeContent && (
                         <cite>
                             ,{' '}
                             {citeLink ? (
                                 <A href={citeLink} target="_blank">
-                                    {cite}
+                                    {citeContent}
                                 </A>
                             ) : (
-                                { cite }
+                                citeContent
                             )}
                         </cite>
                     )}

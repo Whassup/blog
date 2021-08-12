@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { ArticleMeta, H1, P } from '../shared/typography/typography';
+import { ArticleMeta, H1, LI, P, UL } from '../shared/typography/typography';
 
 const List = styled.article`
     display: flex;
@@ -33,6 +33,33 @@ const ReadMore = styled(Link)`
 export const ArticleList: FunctionComponent = () => {
     return (
         <List>
+            <Article>
+                <H1>
+                    <Link to="/blog/article/heres-what-happened-after">
+                        Here&apos;s what happened after publishing my first article
+                    </Link>
+                </H1>
+                <ArticleMeta>
+                    <time>12 August 2021</time>
+                </ArticleMeta>
+                <Body>
+                    <P>
+                        This year I published my first article &quot;How our team writes React tests and other stuff
+                        too&quot; . What happened after sharing my content didn&apos;t follow the script I had
+                        envisioned. The results are not surprising; here is what happened.
+                    </P>
+
+                    <UL>
+                        <LI>Viewership was lower than I expected</LI>
+                        <LI>No one commented</LI>
+                        <LI>Reddit removed my posts</LI>
+                        <LI>Sharing this content was useful for myself</LI>
+                        <LI>I gained valuable insights</LI>
+                        <LI>There is a great deal more for me to learn about writing & publishing online</LI>
+                    </UL>
+                </Body>
+                <ReadMore to="/blog/article/heres-what-happened-after">Read more</ReadMore>
+            </Article>
             <Article>
                 <H1>
                     <Link to="/blog/article/how-our-team-writes-tests">

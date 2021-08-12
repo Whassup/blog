@@ -329,7 +329,7 @@ export const HowOurTeamWritesReactTests: FunctionComponent = () => {
                 <H2>Don&apos;t be afraid to stub child components</H2>
                 <Quote
                     source="Martin Fowler"
-                    cite="Mocks arent Stubs"
+                    citeContent="Mocks arent Stubs"
                     citeLink="https://martinfowler.com/articles/mocksArentStubs.html"
                 >
                     Stubs provide canned answers to calls made during the test, usually not responding at all to

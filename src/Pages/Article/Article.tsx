@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import { Header } from '../../Header/Header';
 import { mediaQuery } from '../../shared/mediaQuery';
+import { HeresWhatHappenedAfter } from './articles/HeresWhatHappenedAfter';
 import { HowOurTeamWritesReactTests } from './articles/HowOurTeamWritesReactTests';
 
 const Wrapper = styled.article`
@@ -63,8 +64,8 @@ export const Article: FunctionComponent = () => {
         <>
             <Header />
             <Wrapper>
-                <HowOurTeamWritesReactTests />
-                {/* <CommentWall pageIdentifier={article} /> */}
+                {article === 'how-our-team-writes-tests' && <HowOurTeamWritesReactTests />}
+                {article === 'heres-what-happened-after' && <HeresWhatHappenedAfter />}
             </Wrapper>
         </>
     );
