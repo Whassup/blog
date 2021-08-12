@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.abc400c6.chunk.css",
-    "main.js": "/blog/static/js/main.96bd7bfb.chunk.js",
-    "main.js.map": "/blog/static/js/main.96bd7bfb.chunk.js.map",
+    "main.js": "/blog/static/js/main.1215f023.chunk.js",
+    "main.js.map": "/blog/static/js/main.1215f023.chunk.js.map",
     "runtime-main.js": "/blog/static/js/runtime-main.341e61a7.js",
     "runtime-main.js.map": "/blog/static/js/runtime-main.341e61a7.js.map",
-    "static/js/2.e61657bd.chunk.js": "/blog/static/js/2.e61657bd.chunk.js",
-    "static/js/2.e61657bd.chunk.js.map": "/blog/static/js/2.e61657bd.chunk.js.map",
+    "static/js/2.5a9de685.chunk.js": "/blog/static/js/2.5a9de685.chunk.js",
+    "static/js/2.5a9de685.chunk.js.map": "/blog/static/js/2.5a9de685.chunk.js.map",
     "static/js/3.6047f5e1.chunk.js": "/blog/static/js/3.6047f5e1.chunk.js",
     "static/js/3.6047f5e1.chunk.js.map": "/blog/static/js/3.6047f5e1.chunk.js.map",
     "index.html": "/blog/index.html",
     "static/css/main.abc400c6.chunk.css.map": "/blog/static/css/main.abc400c6.chunk.css.map",
-    "static/js/2.e61657bd.chunk.js.LICENSE.txt": "/blog/static/js/2.e61657bd.chunk.js.LICENSE.txt",
+    "static/js/2.5a9de685.chunk.js.LICENSE.txt": "/blog/static/js/2.5a9de685.chunk.js.LICENSE.txt",
     "static/media/calendar-day.8b1e32c9.svg": "/blog/static/media/calendar-day.8b1e32c9.svg",
     "static/media/stopwatch.79261059.svg": "/blog/static/media/stopwatch.79261059.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.341e61a7.js",
-    "static/js/2.e61657bd.chunk.js",
+    "static/js/2.5a9de685.chunk.js",
     "static/css/main.abc400c6.chunk.css",
-    "static/js/main.96bd7bfb.chunk.js"
+    "static/js/main.1215f023.chunk.js"
   ]
 }
