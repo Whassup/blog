@@ -175,7 +175,9 @@ export const HeresWhatHappenedAfter: FunctionComponent = () => {
                 </P>{' '}
             </section>
             <section>
-                <H2>There is a great deal more for me to learn about writing & publishing online </H2>
+                <H2 id="more-to-learn">
+                    There is a great deal more for me to learn about writing & publishing online{' '}
+                </H2>
                 <P>For anyone reading this article I would love to know;</P>
                 <UL>
                     <LI>Where are you sharing your content?</LI>
